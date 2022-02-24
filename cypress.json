@@ -1,0 +1,20 @@
+{
+	"watchForFilesChanges": false,
+	"chromeWebSecurity": false,
+	"viewportWidth": 1000,
+	"viewportHeight": 600,
+	"waitForAnimation": true,
+	"animationDistanceTredshold": 20,
+	"exectTimeout": 60000,
+	"defaultCommandTimeout": 10000,
+	"pageLoadTimeout": 6000,
+	"requestTimeout": 15,
+	"responseTimeout": 15,
+	"reporter": "mochawesome",
+	"testFiles": "**/*.feature",
+	"env": {
+		"url": "https://www.automationexercise.com/"
+	},
+	"video": false,
+	"failOnStatusCode": false
+}
