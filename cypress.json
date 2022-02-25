@@ -13,7 +13,7 @@
 	"reporter": "mochawesome",
 	"testFiles": "**/*.feature",
 	"env": {
-		"url": "https://www.automationexercise.com/"
+		"url": "https://www.automationexercise.com"
 	},
 	"video": false,
 	"failOnStatusCode": false

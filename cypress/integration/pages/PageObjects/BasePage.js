@@ -1,5 +1,5 @@
 export class BasePage {
-	acceptCookies() {
+	/*acceptCookies() {
 		cy.get('body').then($body => {
 			cy.wait(3000)
 			if (
@@ -39,5 +39,5 @@ export class BasePage {
 			.get('.govuk-details__summary')
 			.contains('Help with these')
 		dropdownOpen.click()
-	}
+	}*/
 }

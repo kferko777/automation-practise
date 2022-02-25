@@ -4,9 +4,10 @@ const loginPage = new LoginPage()
 
 Cypress.Commands.add('loginData', function (username, password) {
 	loginPage.visit()
+	loginPage.signUploginButton()
 	loginPage.fillUsername(username)
 	loginPage.fillPassword(password)
-	loginPage.submit()
+	loginPage.loginButton()
 })
 
 Cypress.Commands.add('isVisible', selector => {
