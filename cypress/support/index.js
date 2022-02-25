@@ -9,7 +9,7 @@ import * as LoginData from '../fixtures/loginData'
 Cypress.on('uncaught:exception', err => false)
 beforeEach(() => {
 	Cypress.Cookies.preserveOnce('CookieControl')
-	cy.clearCookies()
+	//cy.clearCookies()
 	cy.window().then(win => {
 		win.sessionStorage.clear()
 	})

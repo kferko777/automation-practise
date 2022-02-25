@@ -35,9 +35,11 @@ export class LoginPage extends BasePage {
 	}
 
 	loginButton() {
-		cy.get("button[data-qa='login-button']").should('be.visible', {
-			timeout: 10000,
-		})
+		cy.get("button[data-qa='login-button']")
+			.should('be.visible', {
+				timeout: 10000,
+			})
+			.click()
 	}
 
 	/*expectErrorWrongCredentials() {

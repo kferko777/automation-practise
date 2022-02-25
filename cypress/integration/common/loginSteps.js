@@ -6,6 +6,7 @@ const loginPage = new LoginPage()
 
 //1.Positive Login: Login with valid credentials into Login form
 Given('I login with valid credentials', () => {
+	loginPage.visit()
 	loginPage.signUploginButton()
 	loginPage.fillUsername(LoginData.username)
 	loginPage.fillPassword(LoginData.password)

@@ -8,8 +8,8 @@
 	"exectTimeout": 60000,
 	"defaultCommandTimeout": 10000,
 	"pageLoadTimeout": 6000,
-	"requestTimeout": 15,
-	"responseTimeout": 15,
+	"requestTimeout": 40000,
+	"responseTimeout": 40000,
 	"reporter": "mochawesome",
 	"testFiles": "**/*.feature",
 	"env": {
